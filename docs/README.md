@@ -57,7 +57,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 - [x] [01. Instalar Fedora Server con Anaconda](../01-instalacion-fedora-server/01-instalacion-fedora-server.md)
 - [x] [02. Anatomía de Fedora Server](../02-anatomia-fedora-server/02-anatomia-fedora-server.md)
 - [x] [03. Primer acceso a Cockpit](../03-primer-acceso-cockpit/03-primer-acceso-cockpit.md)
-- [ ] 04. Administración desde Cockpit
+- [ ] [04. Administración desde Cockpit](../04-administracion-desde-cockpit/04-administracion-desde-cockpit.md) *(en curso)*
 - [ ] 05. Almacenamiento desde Cockpit
 - [ ] 06. Administración remota segura
 - [ ] 07. Break & Fix de acceso 🔧
