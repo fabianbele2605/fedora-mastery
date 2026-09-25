@@ -56,7 +56,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
 - [x] [01. Instalar Fedora Server con Anaconda](../01-instalacion-fedora-server/01-instalacion-fedora-server.md)
 - [x] [02. Anatomía de Fedora Server](../02-anatomia-fedora-server/02-anatomia-fedora-server.md)
-- [ ] 03. Primer acceso a Cockpit
+- [ ] [03. Primer acceso a Cockpit](../03-primer-acceso-cockpit/03-primer-acceso-cockpit.md) *(en curso)*
 - [ ] 04. Administración desde Cockpit
 - [ ] 05. Almacenamiento desde Cockpit
 - [ ] 06. Administración remota segura
