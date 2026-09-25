@@ -95,7 +95,25 @@ configuración inválida.
 
 ## Evidencias
 
-_Pendiente — se completa cuando el usuario confirme "verifica img"._
+**01 — VM creada con configuración base (4 GB RAM, 2 CPU, EFI, NAT, disco 45 GB)**
+Panel de detalles de VirtualBox confirmando todo lo aplicado por `VBoxManage`: firmware EFI habilitado, paravirtualización KVM, disco de 45 GB en SATA, unidad óptica vacía en IDE.
+
+![VM creada, detalles generales](evidencias/01-vm-creada-detalles-generales.png)
+
+**02 — ISO montada, VirtualBox marca "Invalid settings detected"**
+La ISO de Fedora Server ya aparece en el controlador IDE, pero el diálogo de Configuración señala un ajuste inválido antes de poder aceptar.
+
+![ISO montada con advertencia de configuración inválida](evidencias/02-iso-montada-advertencia-configuracion-invalida.png)
+
+**03 — Causa real de la advertencia: memoria de vídeo insuficiente**
+La pestaña Pantalla revela el mensaje exacto: "menos de 9 MB de memoria de vídeo", heredado del valor por defecto que asigna `VBoxManage` para `vmsvga` sin tocar ese parámetro.
+
+![Causa: memoria de vídeo insuficiente](evidencias/03-causa-advertencia-memoria-video-insuficiente.png)
+
+**04 — Configuración final sin advertencias (50 MB de vídeo)**
+Tras subir la memoria de vídeo a 50 MB, el panel de detalles no muestra ningún aviso: RAM, CPU, EFI, disco, red NAT y unidad óptica con la ISO, todo consistente.
+
+![Configuración final sin advertencias](evidencias/04-configuracion-final-sin-advertencias.png)
 
 ## Pendientes
 
