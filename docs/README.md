@@ -58,7 +58,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 - [x] [02. Anatomía de Fedora Server](../02-anatomia-fedora-server/02-anatomia-fedora-server.md)
 - [x] [03. Primer acceso a Cockpit](../03-primer-acceso-cockpit/03-primer-acceso-cockpit.md)
 - [x] [04. Administración desde Cockpit](../04-administracion-desde-cockpit/04-administracion-desde-cockpit.md)
-- [ ] 05. Almacenamiento desde Cockpit
+- [ ] [05. Almacenamiento desde Cockpit](../05-almacenamiento-desde-cockpit/05-almacenamiento-desde-cockpit.md) *(en curso)*
 - [ ] 06. Administración remota segura
 - [ ] 07. Break & Fix de acceso 🔧
 
