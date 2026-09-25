@@ -99,13 +99,52 @@ hostnamectl
   ```
   UUID: `56ae7042-baa1-46f7-ac89-a12004373940`.
 
-## Pendientes abiertos (se retoman en módulos siguientes)
+## Incidente resuelto: `mcelog.service` falló al iniciar
 
-- Cockpit reportó **"1 servicio ha fallado"** en el panel "Salud" — sin
-  diagnosticar todavía. Se investiga al reanudar la sesión, antes de
-  cerrar este módulo o como parte del módulo 07 (Break & Fix de acceso).
-- Habilitar el "acceso administrativo" dentro de Cockpit (estaba en modo
-  de solo lectura al primer login).
+Cockpit reportó **"1 servicio ha fallado"** en el panel "Salud" nada más
+loguearse por primera vez. Diagnóstico real, no forzado:
+
+- **Síntoma:** panel "Salud" de Cockpit → "1 servicio ha fallado".
+- **Observación:** `systemctl status mcelog` → `Active: failed (Result:
+  exit-code)`.
+- **Logs:**
+  ```
+  mcelog: ERROR: AMD Processor family 25: mcelog does not support this processor.
+  Please use the edac_mce_amd module instead.
+  CPU is unsupported
+  ```
+- **Hipótesis:** `mcelog` (Machine Check Exception Logging Daemon) es una
+  herramienta de espacio de usuario pensada originalmente para CPUs Intel;
+  el mensaje indica explícitamente que no soporta AMD familia 25 (Zen 3/4
+  — la CPU física del host, expuesta tal cual al guest).
+- **Prueba:** `lsmod | grep edac_mce_amd` → sin salida. El módulo del
+  kernel que reemplaza a `mcelog` en AMD tampoco está cargado, pero eso es
+  esperable: ese módulo lee el controlador de memoria físico para detectar
+  errores de hardware (RAM/caché defectuosos), algo que VirtualBox no
+  expone al guest de forma útil. No hay nada que monitorear en una VM.
+- **Causa raíz confirmada:** incompatibilidad conocida de `mcelog` con
+  CPUs AMD modernas — no es un fallo de la instalación ni de la VM.
+- **Solución aplicada:**
+  ```bash
+  sudo systemctl disable --now mcelog
+  sudo systemctl mask mcelog
+  sudo systemctl reset-failed mcelog
+  ```
+- **Validación:** `systemctl status mcelog` → `Loaded: masked`,
+  `Active: inactive (dead)`. Panel "Salud" de Cockpit recargado → ya no
+  aparece ningún servicio fallado, solo el aviso normal de actualizaciones
+  de seguridad disponibles.
+- **Impacto y riesgo:** ninguno — `mcelog` no cumplía ninguna función en
+  este entorno virtualizado; enmascararlo no reduce la seguridad ni la
+  observabilidad real de la VM.
+- **Cómo evitar recurrencia:** en futuras VMs de Fedora sobre hardware
+  AMD (host o físico), verificar `systemctl status mcelog` temprano y
+  enmascararlo de una vez si el host es AMD familia ≥ 17h (Zen o
+  posterior), en vez de esperar a que Cockpit lo reporte.
+
+También se habilitó el **"Acceso administrativo"** dentro de Cockpit
+(estaba en modo de solo lectura al primer login) — necesario para ver y
+gestionar servicios desde la interfaz web.
 
 ## Reto autónomo
 
