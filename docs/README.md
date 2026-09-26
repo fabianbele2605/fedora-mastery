@@ -100,7 +100,7 @@ denegación real diagnosticada y resuelta en dos capas independientes
 (`semanage port` + `firewalld`), validado con acceso real desde el host.
 
 ### Fase 4 — Fedora Server avanzado y Cockpit (20–24)
-- [ ] 20. Servidor web (CLI + Cockpit)
+- [ ] [20. Servidor web (CLI + Cockpit)](../20-servidor-web-cockpit/20-servidor-web-cockpit.md) *(en curso)*
 - [ ] 21. Cockpit y Podman
 - [ ] 22. Cockpit y virtualización
 - [ ] 23. Actualizaciones de versión
