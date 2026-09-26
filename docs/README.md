@@ -68,7 +68,7 @@ entre NAT y host-only), instantáneas y reporte de recuperación real.
 
 ### Fase 2 — RPM, DNF5 y COPR (08–13)
 - [x] [08. RPM frente a pacman](../08-rpm-frente-a-pacman/08-rpm-frente-a-pacman.md)
-- [ ] 09. DNF5 y transacciones
+- [ ] [09. DNF5 y transacciones](../09-dnf5-transacciones/09-dnf5-transacciones.md) *(en curso)*
 - [ ] 10. Repositorios y confianza (GPG)
 - [ ] 11. COPR
 - [ ] 12. Construir un RPM (SPEC + rpmbuild)
