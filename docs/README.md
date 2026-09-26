@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 12 / 40**
+**Módulo actual: 13 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -71,7 +71,7 @@ entre NAT y host-only), instantáneas y reporte de recuperación real.
 - [x] [09. DNF5 y transacciones](../09-dnf5-transacciones/09-dnf5-transacciones.md)
 - [x] [10. Repositorios y confianza (GPG)](../10-repositorios-y-confianza-gpg/10-repositorios-y-confianza-gpg.md)
 - [x] [11. COPR](../11-copr/11-copr.md)
-- [ ] [12. Construir un RPM](../12-construir-un-rpm/12-construir-un-rpm.md) (SPEC + rpmbuild) *(en curso)*
+- [x] [12. Construir un RPM](../12-construir-un-rpm/12-construir-un-rpm.md) (SPEC + rpmbuild)
 - [ ] 13. Break & Fix de paquetes 🔧
 
 ### Fase 3 — SELinux enforcing (14–19)
