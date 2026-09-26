@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 08 / 40**
+**Módulo actual: 09 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -67,7 +67,7 @@ Cockpit, configuración de red documentada (zonas de firewalld separadas
 entre NAT y host-only), instantáneas y reporte de recuperación real.
 
 ### Fase 2 — RPM, DNF5 y COPR (08–13)
-- [ ] [08. RPM frente a pacman](../08-rpm-frente-a-pacman/08-rpm-frente-a-pacman.md) *(en curso)*
+- [x] [08. RPM frente a pacman](../08-rpm-frente-a-pacman/08-rpm-frente-a-pacman.md)
 - [ ] 09. DNF5 y transacciones
 - [ ] 10. Repositorios y confianza (GPG)
 - [ ] 11. COPR

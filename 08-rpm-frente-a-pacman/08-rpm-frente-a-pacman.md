@@ -1,6 +1,6 @@
 # Módulo 08 — RPM frente a pacman
 
-- Estado: En curso
+- Estado: Completado
 - Fecha: 2026-09-25
 - Versión de Fedora: Fedora Linux 44 (Server Edition)
 - Objetivo diferencial frente a Arch: entender la base de datos de RPM y
@@ -44,8 +44,36 @@ rpm -qf /usr/bin/bash
 rpm -qR bash | head -10
 ```
 
+## Hallazgos reales
+
+1. **811 paquetes instalados** (`rpm -qa | wc -l`) — mismo número que en
+   el módulo 02, consistente (no se instaló nada nuevo desde entonces).
+2. **`rpm -qi bash`** expone trazabilidad de build que pacman no muestra
+   igual: `Build Host: buildvm-x86-11.rdu3.fedoraproject.org` (compilado
+   en la infraestructura oficial de Koji), firma `RSA/SHA256` con Key ID,
+   `Vendor: Fedora Project`.
+3. **`rpm -qR bash` revela dos mecanismos que pacman no tiene igual**:
+   - `config(bash) = 5.3.9-3.fc44` — una dependencia del paquete contra
+     **su propia versión exacta**, para el manejo de archivos de
+     configuración (concepto similar a `.pacnew`/`.pacsave` de Arch, pero
+     declarado como dependencia explícita en vez de resuelto en tiempo de
+     instalación).
+   - Varias `libc.so.6(GLIBC_2.XX)(64bit)` — RPM genera automáticamente
+     dependencias contra **símbolos versionados específicos de glibc**
+     (analizando el binario ELF), no solo contra el nombre del paquete
+     `glibc` completo como pacman. Granularidad más fina: detecta si
+     falta un símbolo puntual, no solo si falta el paquete.
+
 ## Evidencias
 
-_Pendiente — se completa al cerrar el módulo con "verifica img"._
+**01 — `rpm -qa | wc -l` y `rpm -qi bash`**
+811 paquetes, y toda la metadata de `bash`: versión, firma, build host de Koji, licencia.
+
+![rpm -qa conteo y rpm -qi bash](evidencias/01-rpm-qa-conteo-y-rpm-qi-bash.png)
+
+**02 — `rpm -ql`, `rpm -qf` y `rpm -qR`: archivos, dueño y dependencias**
+Incluye las dependencias de símbolos versionados de glibc y la autodependencia `config(bash)`.
+
+![rpm -ql, rpm -qf y rpm -qR](evidencias/02-rpm-qf-y-rpm-qr-dependencias-glibc.png)
 
 ## Pendientes
