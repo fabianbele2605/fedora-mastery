@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 17 / 40**
+**Módulo actual: 18 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -83,9 +83,14 @@ diagnosticado y reparado de punta a punta.
 - [x] [14. Política SELinux en Fedora](../14-selinux-politica-targeted/14-selinux-politica-targeted.md)
 - [x] [15. Contextos persistentes](../15-contextos-persistentes/15-contextos-persistentes.md)
 - [x] [16. Diagnóstico AVC](../16-diagnostico-avc/16-diagnostico-avc.md)
-- [ ] [17. Booleanos y puertos](../17-booleanos-y-puertos/17-booleanos-y-puertos.md) *(en curso)*
+- [x] [17. Booleanos y puertos](../17-booleanos-y-puertos/17-booleanos-y-puertos.md)
 - [ ] 18. Políticas locales y audit2allow
 - [ ] 19. Break & Fix SELinux 🔧
+
+**Proyecto 2 completado**: servicio web (`httpd`) publicado en el puerto
+no estándar 8585, con SELinux `enforcing` activo todo el tiempo —
+denegación real diagnosticada y resuelta en dos capas independientes
+(`semanage port` + `firewalld`), validado con acceso real desde el host.
 
 ### Fase 4 — Fedora Server avanzado y Cockpit (20–24)
 - [ ] 20. Servidor web (CLI + Cockpit)
