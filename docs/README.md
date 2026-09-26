@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 19 / 40**
+**Módulo actual: 20 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -85,7 +85,14 @@ diagnosticado y reparado de punta a punta.
 - [x] [16. Diagnóstico AVC](../16-diagnostico-avc/16-diagnostico-avc.md)
 - [x] [17. Booleanos y puertos](../17-booleanos-y-puertos/17-booleanos-y-puertos.md)
 - [x] [18. Políticas locales y audit2allow](../18-politicas-locales-audit2allow/18-politicas-locales-audit2allow.md)
-- [ ] [19. Break & Fix SELinux](../19-breakfix-selinux/19-breakfix-selinux.md) 🔧 *(en curso)*
+- [x] [19. Break & Fix SELinux](../19-breakfix-selinux/19-breakfix-selinux.md) 🔧
+
+**Fase 3 completa**: dominios y tipos, contextos persistentes,
+diagnóstico AVC real (con el hallazgo del daemon `setroubleshootd`
+caído), servicio web en puerto no estándar con las dos capas resueltas
+(SELinux + firewalld), `audit2allow` evaluado con criterio (dos módulos
+rechazados con justificación), y un Break & Fix real de contenido web
+recuperado sin desactivar `enforcing` en ningún momento.
 
 **Proyecto 2 completado**: servicio web (`httpd`) publicado en el puerto
 no estándar 8585, con SELinux `enforcing` activo todo el tiempo —
