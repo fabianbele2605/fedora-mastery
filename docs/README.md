@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 15 / 40**
+**Módulo actual: 16 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -81,7 +81,7 @@ diagnosticado y reparado de punta a punta.
 
 ### Fase 3 — SELinux enforcing (14–19)
 - [x] [14. Política SELinux en Fedora](../14-selinux-politica-targeted/14-selinux-politica-targeted.md)
-- [ ] [15. Contextos persistentes](../15-contextos-persistentes/15-contextos-persistentes.md) *(en curso)*
+- [x] [15. Contextos persistentes](../15-contextos-persistentes/15-contextos-persistentes.md)
 - [ ] 16. Diagnóstico AVC
 - [ ] 17. Booleanos y puertos
 - [ ] 18. Políticas locales y audit2allow
