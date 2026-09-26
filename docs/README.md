@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 07 / 40**
+**Módulo actual: 08 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -60,7 +60,11 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 - [x] [04. Administración desde Cockpit](../04-administracion-desde-cockpit/04-administracion-desde-cockpit.md)
 - [x] [05. Almacenamiento desde Cockpit](../05-almacenamiento-desde-cockpit/05-almacenamiento-desde-cockpit.md)
 - [x] [06. Administración remota segura](../06-administracion-remota-segura/06-administracion-remota-segura.md)
-- [ ] [07. Break & Fix de acceso](../07-breakfix-acceso/07-breakfix-acceso.md) 🔧 *(en curso)*
+- [x] [07. Break & Fix de acceso](../07-breakfix-acceso/07-breakfix-acceso.md) 🔧
+
+**Proyecto 1 completado**: Fedora Server accesible desde Ubuntu, con SSH,
+Cockpit, configuración de red documentada (zonas de firewalld separadas
+entre NAT y host-only), instantáneas y reporte de recuperación real.
 
 ### Fase 2 — RPM, DNF5 y COPR (08–13)
 - [ ] 08. RPM frente a pacman
