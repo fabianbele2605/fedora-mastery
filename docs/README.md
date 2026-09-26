@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 18 / 40**
+**Módulo actual: 19 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -84,7 +84,7 @@ diagnosticado y reparado de punta a punta.
 - [x] [15. Contextos persistentes](../15-contextos-persistentes/15-contextos-persistentes.md)
 - [x] [16. Diagnóstico AVC](../16-diagnostico-avc/16-diagnostico-avc.md)
 - [x] [17. Booleanos y puertos](../17-booleanos-y-puertos/17-booleanos-y-puertos.md)
-- [ ] [18. Políticas locales y audit2allow](../18-politicas-locales-audit2allow/18-politicas-locales-audit2allow.md) *(en curso)*
+- [x] [18. Políticas locales y audit2allow](../18-politicas-locales-audit2allow/18-politicas-locales-audit2allow.md)
 - [ ] 19. Break & Fix SELinux 🔧
 
 **Proyecto 2 completado**: servicio web (`httpd`) publicado en el puerto
