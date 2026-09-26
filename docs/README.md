@@ -70,7 +70,7 @@ entre NAT y host-only), instantáneas y reporte de recuperación real.
 - [x] [08. RPM frente a pacman](../08-rpm-frente-a-pacman/08-rpm-frente-a-pacman.md)
 - [x] [09. DNF5 y transacciones](../09-dnf5-transacciones/09-dnf5-transacciones.md)
 - [x] [10. Repositorios y confianza (GPG)](../10-repositorios-y-confianza-gpg/10-repositorios-y-confianza-gpg.md)
-- [ ] 11. COPR
+- [ ] [11. COPR](../11-copr/11-copr.md) *(en curso)*
 - [ ] 12. Construir un RPM (SPEC + rpmbuild)
 - [ ] 13. Break & Fix de paquetes 🔧
 
