@@ -67,7 +67,7 @@ Cockpit, configuración de red documentada (zonas de firewalld separadas
 entre NAT y host-only), instantáneas y reporte de recuperación real.
 
 ### Fase 2 — RPM, DNF5 y COPR (08–13)
-- [ ] 08. RPM frente a pacman
+- [ ] [08. RPM frente a pacman](../08-rpm-frente-a-pacman/08-rpm-frente-a-pacman.md) *(en curso)*
 - [ ] 09. DNF5 y transacciones
 - [ ] 10. Repositorios y confianza (GPG)
 - [ ] 11. COPR
