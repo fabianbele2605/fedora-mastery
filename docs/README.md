@@ -83,7 +83,7 @@ diagnosticado y reparado de punta a punta.
 - [x] [14. Política SELinux en Fedora](../14-selinux-politica-targeted/14-selinux-politica-targeted.md)
 - [x] [15. Contextos persistentes](../15-contextos-persistentes/15-contextos-persistentes.md)
 - [x] [16. Diagnóstico AVC](../16-diagnostico-avc/16-diagnostico-avc.md)
-- [ ] 17. Booleanos y puertos
+- [ ] [17. Booleanos y puertos](../17-booleanos-y-puertos/17-booleanos-y-puertos.md) *(en curso)*
 - [ ] 18. Políticas locales y audit2allow
 - [ ] 19. Break & Fix SELinux 🔧
 
