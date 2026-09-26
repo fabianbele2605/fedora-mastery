@@ -80,7 +80,7 @@ confianza), primer RPM propio construido, y un repositorio roto
 diagnosticado y reparado de punta a punta.
 
 ### Fase 3 — SELinux enforcing (14–19)
-- [ ] 14. Política SELinux en Fedora
+- [ ] [14. Política SELinux en Fedora](../14-selinux-politica-targeted/14-selinux-politica-targeted.md) *(en curso)*
 - [ ] 15. Contextos persistentes
 - [ ] 16. Diagnóstico AVC
 - [ ] 17. Booleanos y puertos
