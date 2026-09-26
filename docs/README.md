@@ -72,7 +72,7 @@ entre NAT y host-only), instantáneas y reporte de recuperación real.
 - [x] [10. Repositorios y confianza (GPG)](../10-repositorios-y-confianza-gpg/10-repositorios-y-confianza-gpg.md)
 - [x] [11. COPR](../11-copr/11-copr.md)
 - [x] [12. Construir un RPM](../12-construir-un-rpm/12-construir-un-rpm.md) (SPEC + rpmbuild)
-- [ ] 13. Break & Fix de paquetes 🔧
+- [ ] [13. Break & Fix de paquetes](../13-breakfix-paquetes/13-breakfix-paquetes.md) 🔧 *(en curso)*
 
 ### Fase 3 — SELinux enforcing (14–19)
 - [ ] 14. Política SELinux en Fedora
