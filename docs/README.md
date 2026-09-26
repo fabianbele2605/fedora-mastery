@@ -81,7 +81,7 @@ diagnosticado y reparado de punta a punta.
 
 ### Fase 3 — SELinux enforcing (14–19)
 - [x] [14. Política SELinux en Fedora](../14-selinux-politica-targeted/14-selinux-politica-targeted.md)
-- [ ] 15. Contextos persistentes
+- [ ] [15. Contextos persistentes](../15-contextos-persistentes/15-contextos-persistentes.md) *(en curso)*
 - [ ] 16. Diagnóstico AVC
 - [ ] 17. Booleanos y puertos
 - [ ] 18. Políticas locales y audit2allow
