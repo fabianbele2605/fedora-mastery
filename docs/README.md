@@ -60,7 +60,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 - [x] [04. Administración desde Cockpit](../04-administracion-desde-cockpit/04-administracion-desde-cockpit.md)
 - [x] [05. Almacenamiento desde Cockpit](../05-almacenamiento-desde-cockpit/05-almacenamiento-desde-cockpit.md)
 - [x] [06. Administración remota segura](../06-administracion-remota-segura/06-administracion-remota-segura.md)
-- [ ] 07. Break & Fix de acceso 🔧
+- [ ] [07. Break & Fix de acceso](../07-breakfix-acceso/07-breakfix-acceso.md) 🔧 *(en curso)*
 
 ### Fase 2 — RPM, DNF5 y COPR (08–13)
 - [ ] 08. RPM frente a pacman
