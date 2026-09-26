@@ -85,7 +85,7 @@ diagnosticado y reparado de punta a punta.
 - [x] [16. Diagnóstico AVC](../16-diagnostico-avc/16-diagnostico-avc.md)
 - [x] [17. Booleanos y puertos](../17-booleanos-y-puertos/17-booleanos-y-puertos.md)
 - [x] [18. Políticas locales y audit2allow](../18-politicas-locales-audit2allow/18-politicas-locales-audit2allow.md)
-- [ ] 19. Break & Fix SELinux 🔧
+- [ ] [19. Break & Fix SELinux](../19-breakfix-selinux/19-breakfix-selinux.md) 🔧 *(en curso)*
 
 **Proyecto 2 completado**: servicio web (`httpd`) publicado en el puerto
 no estándar 8585, con SELinux `enforcing` activo todo el tiempo —
