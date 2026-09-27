@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 25 / 40**
+**Módulo actual: 26 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -121,7 +121,7 @@ mantenimiento, y procedimiento de recuperación real documentado de
 punta a punta.
 
 ### Fase 5 — Rust en Fedora y empaquetado RPM (25–29)
-- [ ] [25. Toolchain Rust (rustup vs DNF)](../25-toolchain-rust/25-toolchain-rust.md) *(en curso)*
+- [x] [25. Toolchain Rust (rustup vs DNF)](../25-toolchain-rust/25-toolchain-rust.md)
 - [ ] 26. Cargo y bibliotecas del sistema
 - [ ] 27. Utilidad Rust para Fedora Server
 - [ ] 28. Empaquetado RPM del binario
