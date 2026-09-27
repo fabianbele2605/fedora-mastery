@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 24 / 40**
+**Módulo actual: 25 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -104,7 +104,21 @@ denegación real diagnosticada y resuelta en dos capas independientes
 - [x] [21. Cockpit y Podman](../21-cockpit-y-podman/21-cockpit-y-podman.md)
 - [x] [22. Cockpit y virtualización](../22-cockpit-y-maquinas-virtuales/22-cockpit-y-maquinas-virtuales.md)
 - [x] [23. Actualizaciones de versión](../23-actualizacion-version-mayor/23-actualizacion-version-mayor.md)
-- [ ] [24. Break & Fix de mantenimiento](../24-breakfix-mantenimiento/24-breakfix-mantenimiento.md) 🔧 *(en curso)*
+- [x] [24. Break & Fix de mantenimiento](../24-breakfix-mantenimiento/24-breakfix-mantenimiento.md) 🔧
+
+**Fase 4 completa**: servicio web administrado desde CLI y Cockpit,
+Podman rootless con contenedores e imágenes, virtualización anidada
+habilitada y validada, un upgrade mayor real (F44→F45) con estrategia
+de reversión por GRUB, y un Break & Fix de mantenimiento real —
+restauración accidental de `httpd.conf` diagnosticada (incluyendo dos
+errores propios de comandos: bandera `-I` en vez de `-i`, y `ss` sin
+`sudo`) y reparada sin recurrir a la instantánea.
+
+**Proyecto 3 completado**: aplicación en contenedor (Podman) con
+supervisión desde Cockpit, servicio web con SELinux enforcing sin
+interrupciones durante un upgrade mayor y un incidente de
+mantenimiento, y procedimiento de recuperación real documentado de
+punta a punta.
 
 ### Fase 5 — Rust en Fedora y empaquetado RPM (25–29)
 - [ ] 25. Toolchain Rust (rustup vs DNF)
