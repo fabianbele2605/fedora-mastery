@@ -122,7 +122,7 @@ punta a punta.
 
 ### Fase 5 — Rust en Fedora y empaquetado RPM (25–29)
 - [x] [25. Toolchain Rust (rustup vs DNF)](../25-toolchain-rust/25-toolchain-rust.md)
-- [ ] 26. Cargo y bibliotecas del sistema
+- [ ] [26. Cargo y bibliotecas del sistema](../26-cargo-bibliotecas-sistema/26-cargo-bibliotecas-sistema.md) *(en curso)*
 - [ ] 27. Utilidad Rust para Fedora Server
 - [ ] 28. Empaquetado RPM del binario
 - [ ] 29. Break & Fix de compilación 🔧
