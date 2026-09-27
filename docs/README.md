@@ -144,7 +144,7 @@ empaquetado diagnosticado y reparado sin tocar el binario.
 
 ### Fase 6 — Silverblue, rpm-ostree y CoreOS (30–35)
 - [x] [30. OSTree y rpm-ostree](../30-ostree-rpm-ostree/30-ostree-rpm-ostree.md)
-- [ ] 31. Fedora Silverblue
+- [ ] [31. Fedora Silverblue](../31-fedora-silverblue/31-fedora-silverblue.md) *(en curso)*
 - [ ] 32. Rollback de despliegues
 - [ ] 33. Fedora CoreOS
 - [ ] 34. Contenedores en CoreOS
