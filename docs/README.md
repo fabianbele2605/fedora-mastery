@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 30 / 40**
+**Módulo actual: 31 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -143,7 +143,7 @@ distribuida como `.rpm` propio — validada con un incidente real de
 empaquetado diagnosticado y reparado sin tocar el binario.
 
 ### Fase 6 — Silverblue, rpm-ostree y CoreOS (30–35)
-- [ ] [30. OSTree y rpm-ostree](../30-ostree-rpm-ostree/30-ostree-rpm-ostree.md) *(en curso)*
+- [x] [30. OSTree y rpm-ostree](../30-ostree-rpm-ostree/30-ostree-rpm-ostree.md)
 - [ ] 31. Fedora Silverblue
 - [ ] 32. Rollback de despliegues
 - [ ] 33. Fedora CoreOS
