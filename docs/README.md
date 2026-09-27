@@ -125,7 +125,7 @@ punta a punta.
 - [x] [26. Cargo y bibliotecas del sistema](../26-cargo-bibliotecas-sistema/26-cargo-bibliotecas-sistema.md)
 - [x] [27. Utilidad Rust para Fedora Server](../27-utilidad-rust-fedora-server/27-utilidad-rust-fedora-server.md)
 - [x] [28. Empaquetado RPM del binario](../28-empaquetado-rpm/28-empaquetado-rpm.md)
-- [ ] 29. Break & Fix de compilación 🔧
+- [ ] [29. Break & Fix de compilación](../29-breakfix-compilacion/29-breakfix-compilacion.md) 🔧 *(en curso)*
 
 ### Fase 6 — Silverblue, rpm-ostree y CoreOS (30–35)
 - [ ] 30. OSTree y rpm-ostree
