@@ -143,7 +143,7 @@ distribuida como `.rpm` propio — validada con un incidente real de
 empaquetado diagnosticado y reparado sin tocar el binario.
 
 ### Fase 6 — Silverblue, rpm-ostree y CoreOS (30–35)
-- [ ] 30. OSTree y rpm-ostree
+- [ ] [30. OSTree y rpm-ostree](../30-ostree-rpm-ostree/30-ostree-rpm-ostree.md) *(en curso)*
 - [ ] 31. Fedora Silverblue
 - [ ] 32. Rollback de despliegues
 - [ ] 33. Fedora CoreOS
