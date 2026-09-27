@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 29 / 40**
+**Módulo actual: 30 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -125,7 +125,22 @@ punta a punta.
 - [x] [26. Cargo y bibliotecas del sistema](../26-cargo-bibliotecas-sistema/26-cargo-bibliotecas-sistema.md)
 - [x] [27. Utilidad Rust para Fedora Server](../27-utilidad-rust-fedora-server/27-utilidad-rust-fedora-server.md)
 - [x] [28. Empaquetado RPM del binario](../28-empaquetado-rpm/28-empaquetado-rpm.md)
-- [ ] [29. Break & Fix de compilación](../29-breakfix-compilacion/29-breakfix-compilacion.md) 🔧 *(en curso)*
+- [x] [29. Break & Fix de compilación](../29-breakfix-compilacion/29-breakfix-compilacion.md) 🔧
+
+**Fase 5 completa**: `rustup` frente al toolchain de DNF con criterio
+de cuándo usar cada uno, un fallo real de enlazado nativo diagnosticado
+con `pkg-config`/`-devel` (y el hallazgo de *dead code elimination*
+del enlazador), una CLI de diagnóstico real que envuelve herramientas
+del sistema en vez de reimplementarlas, un empaquetado RPM completo
+con un hallazgo central sobre reproducibilidad de toolchain (`rpmbuild`
+heredando el `$PATH` del shell), y un Break & Fix de metadatos RPM
+reales — incluyendo un error propio de diseño del incidente, corregido
+en vivo.
+
+**Proyecto 4 completado:** `fedser-diag`, utilidad de diagnóstico
+escrita en Rust, compilada con el toolchain reproducible de DNF, y
+distribuida como `.rpm` propio — validada con un incidente real de
+empaquetado diagnosticado y reparado sin tocar el binario.
 
 ### Fase 6 — Silverblue, rpm-ostree y CoreOS (30–35)
 - [ ] 30. OSTree y rpm-ostree
