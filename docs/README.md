@@ -121,7 +121,7 @@ mantenimiento, y procedimiento de recuperación real documentado de
 punta a punta.
 
 ### Fase 5 — Rust en Fedora y empaquetado RPM (25–29)
-- [ ] 25. Toolchain Rust (rustup vs DNF)
+- [ ] [25. Toolchain Rust (rustup vs DNF)](../25-toolchain-rust/25-toolchain-rust.md) *(en curso)*
 - [ ] 26. Cargo y bibliotecas del sistema
 - [ ] 27. Utilidad Rust para Fedora Server
 - [ ] 28. Empaquetado RPM del binario
