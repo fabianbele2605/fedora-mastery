@@ -104,7 +104,7 @@ denegación real diagnosticada y resuelta en dos capas independientes
 - [x] [21. Cockpit y Podman](../21-cockpit-y-podman/21-cockpit-y-podman.md)
 - [x] [22. Cockpit y virtualización](../22-cockpit-y-maquinas-virtuales/22-cockpit-y-maquinas-virtuales.md)
 - [x] [23. Actualizaciones de versión](../23-actualizacion-version-mayor/23-actualizacion-version-mayor.md)
-- [ ] 24. Break & Fix de mantenimiento 🔧
+- [ ] [24. Break & Fix de mantenimiento](../24-breakfix-mantenimiento/24-breakfix-mantenimiento.md) 🔧 *(en curso)*
 
 ### Fase 5 — Rust en Fedora y empaquetado RPM (25–29)
 - [ ] 25. Toolchain Rust (rustup vs DNF)
