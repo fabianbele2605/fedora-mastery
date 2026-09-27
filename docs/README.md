@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 28 / 40**
+**Módulo actual: 29 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -124,7 +124,7 @@ punta a punta.
 - [x] [25. Toolchain Rust (rustup vs DNF)](../25-toolchain-rust/25-toolchain-rust.md)
 - [x] [26. Cargo y bibliotecas del sistema](../26-cargo-bibliotecas-sistema/26-cargo-bibliotecas-sistema.md)
 - [x] [27. Utilidad Rust para Fedora Server](../27-utilidad-rust-fedora-server/27-utilidad-rust-fedora-server.md)
-- [ ] [28. Empaquetado RPM del binario](../28-empaquetado-rpm/28-empaquetado-rpm.md) *(en curso)*
+- [x] [28. Empaquetado RPM del binario](../28-empaquetado-rpm/28-empaquetado-rpm.md)
 - [ ] 29. Break & Fix de compilación 🔧
 
 ### Fase 6 — Silverblue, rpm-ostree y CoreOS (30–35)
