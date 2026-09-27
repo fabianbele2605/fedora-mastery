@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 22 / 40**
+**Módulo actual: 23 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -102,7 +102,7 @@ denegación real diagnosticada y resuelta en dos capas independientes
 ### Fase 4 — Fedora Server avanzado y Cockpit (20–24)
 - [x] [20. Servidor web (CLI + Cockpit)](../20-servidor-web-cockpit/20-servidor-web-cockpit.md)
 - [x] [21. Cockpit y Podman](../21-cockpit-y-podman/21-cockpit-y-podman.md)
-- [ ] [22. Cockpit y virtualización](../22-cockpit-y-maquinas-virtuales/22-cockpit-y-maquinas-virtuales.md) *(en curso)*
+- [x] [22. Cockpit y virtualización](../22-cockpit-y-maquinas-virtuales/22-cockpit-y-maquinas-virtuales.md)
 - [ ] 23. Actualizaciones de versión
 - [ ] 24. Break & Fix de mantenimiento 🔧
 
