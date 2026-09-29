@@ -148,7 +148,7 @@ empaquetado diagnosticado y reparado sin tocar el binario.
 - [x] [32. Rollback de despliegues](../32-rollback-despliegues/32-rollback-despliegues.md)
 - [x] [33. Fedora CoreOS](../33-fedora-coreos/33-fedora-coreos.md)
 - [x] [34. Contenedores en CoreOS](../34-contenedores-coreos/34-contenedores-coreos.md)
-- [ ] 35. Break & Fix de despliegue 🔧
+- [ ] [35. Break & Fix de despliegue](../35-breakfix-despliegue/35-breakfix-despliegue.md) 🔧 *(en curso)*
 
 ### Fase 7 — Automatización específica de Fedora (36–38)
 - [ ] 36. Kickstart
