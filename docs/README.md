@@ -146,7 +146,7 @@ empaquetado diagnosticado y reparado sin tocar el binario.
 - [x] [30. OSTree y rpm-ostree](../30-ostree-rpm-ostree/30-ostree-rpm-ostree.md)
 - [x] [31. Fedora Silverblue](../31-fedora-silverblue/31-fedora-silverblue.md)
 - [x] [32. Rollback de despliegues](../32-rollback-despliegues/32-rollback-despliegues.md)
-- [ ] 33. Fedora CoreOS
+- [ ] [33. Fedora CoreOS](../33-fedora-coreos/33-fedora-coreos.md) *(en curso)*
 - [ ] 34. Contenedores en CoreOS
 - [ ] 35. Break & Fix de despliegue 🔧
 
