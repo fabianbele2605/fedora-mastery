@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 36 / 40**
+**Módulo actual: 37 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -161,7 +161,7 @@ reinicio real, y un Break & Fix de configuración de aprovisionamiento
 diagnosticado con journalctl y reparado sin reinstalar nada.
 
 ### Fase 7 — Automatización específica de Fedora (36–38)
-- [ ] [36. Kickstart](../36-kickstart/36-kickstart.md) *(en curso)*
+- [x] [36. Kickstart](../36-kickstart/36-kickstart.md)
 - [ ] 37. Ansible aplicado a Fedora
 - [ ] 38. Modelos de despliegue (comparación)
 
