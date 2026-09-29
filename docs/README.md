@@ -162,7 +162,7 @@ diagnosticado con journalctl y reparado sin reinstalar nada.
 
 ### Fase 7 — Automatización específica de Fedora (36–38)
 - [x] [36. Kickstart](../36-kickstart/36-kickstart.md)
-- [ ] 37. Ansible aplicado a Fedora
+- [ ] [37. Ansible aplicado a Fedora](../37-ansible-fedora/37-ansible-fedora.md) *(en curso)*
 - [ ] 38. Modelos de despliegue (comparación)
 
 ### Fase 8 — Proyecto final (39)
