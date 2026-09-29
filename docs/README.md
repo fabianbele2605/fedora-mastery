@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 34 / 40**
+**Módulo actual: 35 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -147,7 +147,7 @@ empaquetado diagnosticado y reparado sin tocar el binario.
 - [x] [31. Fedora Silverblue](../31-fedora-silverblue/31-fedora-silverblue.md)
 - [x] [32. Rollback de despliegues](../32-rollback-despliegues/32-rollback-despliegues.md)
 - [x] [33. Fedora CoreOS](../33-fedora-coreos/33-fedora-coreos.md)
-- [ ] [34. Contenedores en CoreOS](../34-contenedores-coreos/34-contenedores-coreos.md) *(en curso)*
+- [x] [34. Contenedores en CoreOS](../34-contenedores-coreos/34-contenedores-coreos.md)
 - [ ] 35. Break & Fix de despliegue 🔧
 
 ### Fase 7 — Automatización específica de Fedora (36–38)
