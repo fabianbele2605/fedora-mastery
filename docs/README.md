@@ -161,7 +161,7 @@ reinicio real, y un Break & Fix de configuración de aprovisionamiento
 diagnosticado con journalctl y reparado sin reinstalar nada.
 
 ### Fase 7 — Automatización específica de Fedora (36–38)
-- [ ] 36. Kickstart
+- [ ] [36. Kickstart](../36-kickstart/36-kickstart.md) *(en curso)*
 - [ ] 37. Ansible aplicado a Fedora
 - [ ] 38. Modelos de despliegue (comparación)
 
