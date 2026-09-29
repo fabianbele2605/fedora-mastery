@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 35 / 40**
+**Módulo actual: 36 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -148,7 +148,17 @@ empaquetado diagnosticado y reparado sin tocar el binario.
 - [x] [32. Rollback de despliegues](../32-rollback-despliegues/32-rollback-despliegues.md)
 - [x] [33. Fedora CoreOS](../33-fedora-coreos/33-fedora-coreos.md)
 - [x] [34. Contenedores en CoreOS](../34-contenedores-coreos/34-contenedores-coreos.md)
-- [ ] [35. Break & Fix de despliegue](../35-breakfix-despliegue/35-breakfix-despliegue.md) 🔧 *(en curso)*
+- [x] [35. Break & Fix de despliegue](../35-breakfix-despliegue/35-breakfix-despliegue.md) 🔧
+
+**Fase 6 completa**: contraste real DNF/rpm-ostree con el límite
+confirmado en un sistema tradicional, Fedora Silverblue instalado
+desde cero (layering, Toolbox, Flatpak, y el matiz real de Firefox
+en la imagen base), rollback de despliegues validado ida y vuelta,
+Fedora CoreOS aprovisionado de forma declarativa con Butane/Ignition
+(incluyendo un incidente de red no resuelto del todo, sorteado con
+criterio), un contenedor gestionado por systemd sobreviviendo un
+reinicio real, y un Break & Fix de configuración de aprovisionamiento
+diagnosticado con journalctl y reparado sin reinstalar nada.
 
 ### Fase 7 — Automatización específica de Fedora (36–38)
 - [ ] 36. Kickstart
