@@ -174,7 +174,7 @@ final de los tres modelos de despliegue del curso con datos reales de
 cada módulo, no teoría genérica.
 
 ### Fase 8 — Proyecto final (39)
-- [ ] 39. Fedora Enterprise Lab
+- [ ] [39. Fedora Enterprise Lab](../39-fedora-enterprise-lab/39-fedora-enterprise-lab.md) *(en curso)*
 
 ## Estructura del repo
 
