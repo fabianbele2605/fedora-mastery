@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 39 / 40**
+**Curso completo: 40 / 40 módulos**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -174,7 +174,16 @@ final de los tres modelos de despliegue del curso con datos reales de
 cada módulo, no teoría genérica.
 
 ### Fase 8 — Proyecto final (39)
-- [ ] [39. Fedora Enterprise Lab](../39-fedora-enterprise-lab/39-fedora-enterprise-lab.md) *(en curso)*
+- [x] [39. Fedora Enterprise Lab](../39-fedora-enterprise-lab/39-fedora-enterprise-lab.md)
+
+**Fase 8 completa — curso completo.** Las cuatro piezas construidas
+por separado a lo largo del curso (Cockpit, `fedser-diag`, un
+contenedor Podman declarativo con SELinux enforcing, y Ansible)
+quedaron integradas en un solo entorno reproducible sobre
+`Fedora_Server`, corriendo limpio al primer intento gracias a que
+cada problema real ya había sido diagnosticado en su módulo original.
+Idempotencia total confirmada en el entorno integrado completo, y un
+ciclo real de actualización controlada aplicado sin incidentes.
 
 ## Estructura del repo
 
