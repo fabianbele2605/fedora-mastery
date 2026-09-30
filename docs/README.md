@@ -50,7 +50,7 @@ proyecto final, con dos VMs ligeras corriendo juntas).
 
 ## Progreso
 
-**Módulo actual: 38 / 40**
+**Módulo actual: 39 / 40**
 
 ### Fase 1 — Fedora Server y Cockpit (00–07)
 - [x] [00. Preparar VirtualBox en Ubuntu](../00-preparacion-virtualbox/00-preparacion-virtualbox.md)
@@ -163,7 +163,15 @@ diagnosticado con journalctl y reparado sin reinstalar nada.
 ### Fase 7 — Automatización específica de Fedora (36–38)
 - [x] [36. Kickstart](../36-kickstart/36-kickstart.md)
 - [x] [37. Ansible aplicado a Fedora](../37-ansible-fedora/37-ansible-fedora.md)
-- [ ] 38. Modelos de despliegue (comparación)
+- [x] [38. Modelos de despliegue (comparación)](../38-modelos-despliegue/38-modelos-despliegue.md)
+
+**Fase 7 completa**: Kickstart automatizando Anaconda sin cambiar el
+modelo de gestión posterior (mismo incidente de contexto SELinux que
+en una instalación manual), Ansible aplicado a Fedora con
+idempotencia real demostrada tras varios pivotes de compatibilidad
+(DNF5/libdnf5, colección `seport` ausente), y una síntesis comparativa
+final de los tres modelos de despliegue del curso con datos reales de
+cada módulo, no teoría genérica.
 
 ### Fase 8 — Proyecto final (39)
 - [ ] 39. Fedora Enterprise Lab
